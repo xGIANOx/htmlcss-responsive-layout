@@ -50,6 +50,9 @@ nav{
     .col_md_8{
         width: calc(100% / 12 * 8);
     }
+    .col_md_6{
+        width: calc(100% / 12 * 6);
+    }
     .col_md_4{
         width: calc(100% / 12 * 4);
     }
