@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>htmlcss-responsive-layout</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -12,8 +13,22 @@
     <header id="app_header">
         <div class="container">
             <nav class="flex">
-                <div class="logo">Logo</div>
-                <div class="menu">Menu</div>
+                
+                <img class="logo" src="./assets/img/logo.png" alt="">
+            
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+                <div class="menu">
+                    <ul class="flex">
+                        <li class="menu_item"><a href="#">Planning</a></li>
+                        <li class="menu_item"><a href="#">Testimonials</a></li>
+                        <li class="menu_item"><a href="#">Features</a></li>
+                        <li class="menu_item"><a href="#">About us</a></li>
+                        <li class="menu_item_button""><a class="start_button href="#">Get Started</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </header>
@@ -90,12 +105,7 @@
     </main>
     <!-- /#app_main -->
     <footer id="app_footer">
-        <section class="get_started">
-            
-            <div>
                 <div class="col_12"></div>
-            </div>
-
         </section>
         <!--/.get_started-->
 

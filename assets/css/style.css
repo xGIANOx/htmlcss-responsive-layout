@@ -4,9 +4,21 @@
     box-sizing: border-box;
 }
 
+/* utilities */
+
 .flex{
     display: flex;
     flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+li{
+    padding-left: 0.5rem;
 }
 
 .container{
@@ -28,24 +40,62 @@
     width: calc(100% / 12 * 12);
 }
 
+.strategic,
+.benefits,
+.get_started{
+    background-color: #9792e4;
+}
+
+/* header */
+
 
 header{
-    height: 70px;
-    background-color: aqua;
+    background-color: #0084fd;
 }
 
 nav{
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
-    background-color: red;
+    width: 70px;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.fa-bars{
+    font-size: 2rem;
+    color: white;
 }
 
 .menu{
-    background-color: yellow;
+    display: none;
 }
 
+.menu_item > a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu_item_button{
+    color: black;
+}
+
+.start_button{
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+/* demo */
+
+
+
+/* footer */
+
+footer{
+    background-color: #333333;
+}
 @media screen and (min-width:481px) {
     .col_md_8{
         width: calc(100% / 12 * 8);
@@ -67,5 +117,11 @@ nav{
     }
     .col_lg_6{
         width: calc(100% / 12 * 6);
+    }
+    .hamburger{
+        display: none;
+    }
+    .menu{
+        display: inline-block;
     }
 }
