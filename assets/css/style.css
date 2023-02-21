@@ -46,7 +46,13 @@ li{
 .m-top1{
     margin-top: 1rem;
 }
+.m-top2{
+    margin-top: 2rem;
+}
 
+.m-bottom2{
+    margin-bottom: 2rem;
+}
 .text_center{
     text-align: center;
 }
@@ -58,6 +64,9 @@ li{
 .graytext{
     color: rgb(84, 84, 84);
 }
+.bg_white{
+    background-color: white;
+}
 
 .strategic,
 .benefits,
@@ -67,6 +76,10 @@ li{
 
 .white{
     color: white;
+}
+
+.line_h1_5{
+    line-height: 1.5rem;
 }
 
 /* header */
@@ -164,6 +177,21 @@ h3{
    color: #0084fd;
    margin-top: 1rem;
 }
+
+/* strategic */
+
+.card{
+    border-radius: 40px;
+    padding-bottom: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+.fa-arrow-down{
+    justify-content: center;
+    background-color:#9792e4;
+    padding: 1rem;
+    border-radius: 50%;
+}
 /* footer */
 
 footer{
@@ -199,6 +227,9 @@ footer{
     }
     h3{
         text-align: center;
+    }
+    .strategic_right{
+        margin-bottom: 2rem;
     }
 }   
     
@@ -236,5 +267,15 @@ footer{
     .phone{
         width: 50%;
         height: fit-content;
+    }
+    .card{
+        margin-top: 1rem;
+    }
+    .strategic_left{
+        margin-top: 2rem;
+    }
+    .strategic_right{
+        margin-top: 10rem;
+        margin-bottom: 2rem;
     }
 }
