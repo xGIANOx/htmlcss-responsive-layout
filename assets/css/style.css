@@ -15,6 +15,11 @@
     flex-wrap: wrap;
 }
 
+section{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 ul{
     list-style: none;
 }
@@ -31,12 +36,6 @@ li{
     width: 70%;
     max-width: 1140px;
     margin: auto;
-}
-
-
-
-[class^="col_"]{
-    border: 1px dashed;
 }
 
 .col_12{
@@ -204,10 +203,12 @@ h3{
 /* strategic */
 
 .card{
-    border-radius: 40px;
+    border-radius: 30px;
     padding-bottom: 1rem;
     flex-direction: column;
     align-items: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 .fa-arrow-down{
     justify-content: center;
@@ -293,6 +294,18 @@ h3{
 
 footer{
     background-color: #333333;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer_p{
+    width: 60%;
+    margin: auto;
+}
+
+.footer_a{
+    text-decoration: underline;
+    color: #716ea1;
 }
 
 /* responsive layout */
