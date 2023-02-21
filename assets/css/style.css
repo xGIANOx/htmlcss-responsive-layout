@@ -192,6 +192,36 @@ h3{
     padding: 1rem;
     border-radius: 50%;
 }
+
+/* partners */
+
+.partners_h{
+    color: #9792e4;
+    font-size: 2rem;
+}
+
+.expert_card{
+    background-color: #9792e4;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    border-radius: 40px;
+}
+
+.expert_card{
+    flex-direction: row;
+}
+
+.expert_p{
+    width: calc(100% - 155px);
+}
+
+.testimonial_img{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    
+}
 /* footer */
 
 footer{
