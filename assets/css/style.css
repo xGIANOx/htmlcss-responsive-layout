@@ -53,6 +53,10 @@ li{
 .m-bottom2{
     margin-bottom: 2rem;
 }
+
+.p-top2{
+    padding-top: 2rem;
+}
 .text_center{
     text-align: center;
 }
@@ -154,7 +158,6 @@ nav{
 .lightblue{
     background-color: #b5ddff;
     border-radius: 15px;
-    margin-top: 1rem;
 
 }
 
@@ -207,20 +210,39 @@ h3{
     padding: 1.5rem;
     border-radius: 40px;
 }
+.expert_p{text-align: center;}
 
 .expert_card{
-    flex-direction: row;
+    flex-direction: column;
 }
 
-.expert_p{
-    width: calc(100% - 155px);
-}
 
 .testimonial_img{
     border-radius: 50%;
     width: 125px;
     height: 125px;
     
+}
+
+/* benefits */
+
+.benefits_number{
+    padding-top: 2rem;
+    font-size: 3rem;
+    color: #9792e4;
+}
+
+.benefits_h3{
+    color: #9792e4;
+    text-align: left;
+}
+
+.benefits_button{
+    background-color:#9792e4;
+    padding: 0.5rem 2.5rem;
+    border-radius: 20px;
+    color: white;
+    width: fit-content;
 }
 /* footer */
 
@@ -260,6 +282,13 @@ footer{
     }
     .strategic_right{
         margin-bottom: 2rem;
+    }
+    .expert_card{
+        flex-direction: row;
+    }
+    .expert_p{
+        width: calc(100% - 155px);
+        text-align: left;
     }
 }   
     
@@ -307,5 +336,12 @@ footer{
     .strategic_right{
         margin-top: 10rem;
         margin-bottom: 2rem;
+    }
+    .expert_card{
+        flex-direction: row;
+    }
+    .expert_p{
+        width: calc(100% - 155px);
+        text-align: left;
     }
 }
