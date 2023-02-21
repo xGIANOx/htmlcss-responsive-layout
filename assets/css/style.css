@@ -94,6 +94,18 @@ li{
     color: #9792e4;
 }
 
+.orange{
+    color: #fdc15f;
+}
+
+.font4{
+    font-size: 4rem;
+}
+
+.padding2{
+    padding: 2rem;
+}
+
 /* header */
 
 
@@ -263,6 +275,18 @@ h3{
     color: white;
     width: fit-content;
     font-size: 0.75rem;
+}
+
+/* get started */
+
+.get_started{
+    font-weight: 200;
+    color: gainsboro;
+
+}
+
+#get_started{
+    color:#9792e4;
 }
 
 /* footer */
